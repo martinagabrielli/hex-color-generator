@@ -31,6 +31,7 @@ function copyHexColor(){
     alert(`Color ${hexCode.textContent} copied to clipboard`)
 }
 
+
 // events
 
 hexBtn.addEventListener('click', changeColor)

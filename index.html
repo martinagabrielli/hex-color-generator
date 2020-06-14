@@ -8,9 +8,13 @@
     <title>Hex Colour</title>
 </head>
 <body>
-    <button>Press Here To Change Color</button>
-    <h2>This Hex Color Code Is: <span data-hexcode>#FFFFFF</span><button data-copy-btn>Copy Color</button></h2>
-
+    <div class="container">
+        <button class="change-color">Press Here To Change Color</button>
+        <div class="wrap">
+            <input data-color-code type="text" value="#FFFFFF" id="myInput">
+            <button class="copy-color" data-hexcode><p>Copy Color</p></button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
